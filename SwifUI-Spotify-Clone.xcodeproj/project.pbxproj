@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF3E3A9A2C22D6E0009FC87A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3E3A992C22D6E0009FC87A /* Constants.swift */; };
+		FF3E3A9C2C22D736009FC87A /* ImageLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3E3A9B2C22D736009FC87A /* ImageLoaderView.swift */; };
+		FF3E3A9F2C22DBA2009FC87A /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3E3A9E2C22DBA2009FC87A /* ProductList.swift */; };
+		FF3E3AA12C22DBC4009FC87A /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3E3AA02C22DBC4009FC87A /* DatabaseHelper.swift */; };
+		FF3E3AA32C22DD9E009FC87A /* UserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3E3AA22C22DD9E009FC87A /* UserList.swift */; };
+		FF3E3AA62C22E19C009FC87A /* SwiftfulUI in Frameworks */ = {isa = PBXBuildFile; productRef = FF3E3AA52C22E19C009FC87A /* SwiftfulUI */; };
+		FF7B42F42C23DBA500252C5C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7B42F32C23DBA500252C5C /* HomeView.swift */; };
+		FF7B42F62C23DFF800252C5C /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7B42F52C23DFF800252C5C /* CategoryCell.swift */; };
+		FF7B42F82C23E33F00252C5C /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7B42F72C23E33F00252C5C /* Category.swift */; };
+		FF7B42FA2C2407C400252C5C /* RecentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7B42F92C2407C400252C5C /* RecentCell.swift */; };
+		FF7B42FC2C2409F500252C5C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7B42FB2C2409F500252C5C /* Extensions.swift */; };
+		FF7B42FE2C2430FB00252C5C /* NewReleaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7B42FD2C2430FB00252C5C /* NewReleaseCell.swift */; };
+		FF85A86F2C25710C00D33D22 /* ImageTitleRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF85A86E2C25710C00D33D22 /* ImageTitleRowCell.swift */; };
+		FF85A8712C257AAD00D33D22 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF85A8702C257AAD00D33D22 /* ProductRow.swift */; };
+		FFB4A2272C2C069B00BD7BDE /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB4A2262C2C069B00BD7BDE /* Router.swift */; };
+		FFBA98A52C22D32000F1A761 /* SwifUI_Spotify_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBA98A42C22D32000F1A761 /* SwifUI_Spotify_CloneApp.swift */; };
+		FFBA98A72C22D32000F1A761 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBA98A62C22D32000F1A761 /* ContentView.swift */; };
+		FFBA98A92C22D32200F1A761 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFBA98A82C22D32200F1A761 /* Assets.xcassets */; };
+		FFBA98AC2C22D32200F1A761 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFBA98AB2C22D32200F1A761 /* Preview Assets.xcassets */; };
+		FFBA98B42C22D3FF00F1A761 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FFBA98B32C22D3FF00F1A761 /* SDWebImageSwiftUI */; };
+		FFF1AEC72C29557E00D13308 /* PlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF1AEC62C29557E00D13308 /* PlaylistView.swift */; };
+		FFF1AEC92C2955C000D13308 /* PlaylistHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF1AEC82C2955C000D13308 /* PlaylistHeaderCell.swift */; };
+		FFF1AECB2C29735000D13308 /* PlaylistDescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF1AECA2C29735000D13308 /* PlaylistDescriptionCell.swift */; };
+		FFF1AECD2C2A936B00D13308 /* PlaylistRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF1AECC2C2A936B00D13308 /* PlaylistRowCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF3E3A992C22D6E0009FC87A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FF3E3A9B2C22D736009FC87A /* ImageLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderView.swift; sourceTree = "<group>"; };
+		FF3E3A9E2C22DBA2009FC87A /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
+		FF3E3AA02C22DBC4009FC87A /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
+		FF3E3AA22C22DD9E009FC87A /* UserList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserList.swift; sourceTree = "<group>"; };
+		FF7B42F32C23DBA500252C5C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FF7B42F52C23DFF800252C5C /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		FF7B42F72C23E33F00252C5C /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		FF7B42F92C2407C400252C5C /* RecentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentCell.swift; sourceTree = "<group>"; };
+		FF7B42FB2C2409F500252C5C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FF7B42FD2C2430FB00252C5C /* NewReleaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleaseCell.swift; sourceTree = "<group>"; };
+		FF85A86E2C25710C00D33D22 /* ImageTitleRowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTitleRowCell.swift; sourceTree = "<group>"; };
+		FF85A8702C257AAD00D33D22 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		FFB4A2262C2C069B00BD7BDE /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		FFBA98A12C22D32000F1A761 /* SwifUI-Spotify-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwifUI-Spotify-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBA98A42C22D32000F1A761 /* SwifUI_Spotify_CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifUI_Spotify_CloneApp.swift; sourceTree = "<group>"; };
+		FFBA98A62C22D32000F1A761 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FFBA98A82C22D32200F1A761 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFBA98AB2C22D32200F1A761 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FFF1AEC62C29557E00D13308 /* PlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistView.swift; sourceTree = "<group>"; };
+		FFF1AEC82C2955C000D13308 /* PlaylistHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistHeaderCell.swift; sourceTree = "<group>"; };
+		FFF1AECA2C29735000D13308 /* PlaylistDescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistDescriptionCell.swift; sourceTree = "<group>"; };
+		FFF1AECC2C2A936B00D13308 /* PlaylistRowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistRowCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFBA989E2C22D32000F1A761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3E3AA62C22E19C009FC87A /* SwiftfulUI in Frameworks */,
+				FFBA98B42C22D3FF00F1A761 /* SDWebImageSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF3E3A982C22D66D009FC87A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FF3E3A992C22D6E0009FC87A /* Constants.swift */,
+				FF3E3A9B2C22D736009FC87A /* ImageLoaderView.swift */,
+				FF3E3AA02C22DBC4009FC87A /* DatabaseHelper.swift */,
+				FF7B42FB2C2409F500252C5C /* Extensions.swift */,
+				FFB4A2262C2C069B00BD7BDE /* Router.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		FF3E3A9D2C22DB69009FC87A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FF3E3A9E2C22DBA2009FC87A /* ProductList.swift */,
+				FF3E3AA22C22DD9E009FC87A /* UserList.swift */,
+				FF7B42F72C23E33F00252C5C /* Category.swift */,
+				FF85A8702C257AAD00D33D22 /* ProductRow.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FF7B42F12C23DB7D00252C5C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FF7B42F32C23DBA500252C5C /* HomeView.swift */,
+				FFF1AEC62C29557E00D13308 /* PlaylistView.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FF7B42F22C23DB8300252C5C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FF7B42F52C23DFF800252C5C /* CategoryCell.swift */,
+				FF7B42F92C2407C400252C5C /* RecentCell.swift */,
+				FF7B42FD2C2430FB00252C5C /* NewReleaseCell.swift */,
+				FF85A86E2C25710C00D33D22 /* ImageTitleRowCell.swift */,
+				FFF1AEC82C2955C000D13308 /* PlaylistHeaderCell.swift */,
+				FFF1AECA2C29735000D13308 /* PlaylistDescriptionCell.swift */,
+				FFF1AECC2C2A936B00D13308 /* PlaylistRowCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FFBA98982C22D32000F1A761 = {
+			isa = PBXGroup;
+			children = (
+				FFBA98A32C22D32000F1A761 /* SwifUI-Spotify-Clone */,
+				FFBA98A22C22D32000F1A761 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFBA98A22C22D32000F1A761 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFBA98A12C22D32000F1A761 /* SwifUI-Spotify-Clone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFBA98A32C22D32000F1A761 /* SwifUI-Spotify-Clone */ = {
+			isa = PBXGroup;
+			children = (
+				FFBA98A42C22D32000F1A761 /* SwifUI_Spotify_CloneApp.swift */,
+				FFBA98A62C22D32000F1A761 /* ContentView.swift */,
+				FF3E3A9D2C22DB69009FC87A /* Models */,
+				FF7B42F12C23DB7D00252C5C /* Core */,
+				FF7B42F22C23DB8300252C5C /* Components */,
+				FF3E3A982C22D66D009FC87A /* Shared */,
+				FFBA98A82C22D32200F1A761 /* Assets.xcassets */,
+				FFBA98AA2C22D32200F1A761 /* Preview Content */,
+			);
+			path = "SwifUI-Spotify-Clone";
+			sourceTree = "<group>";
+		};
+		FFBA98AA2C22D32200F1A761 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FFBA98AB2C22D32200F1A761 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFBA98A02C22D32000F1A761 /* SwifUI-Spotify-Clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFBA98AF2C22D32200F1A761 /* Build configuration list for PBXNativeTarget "SwifUI-Spotify-Clone" */;
+			buildPhases = (
+				FFBA989D2C22D32000F1A761 /* Sources */,
+				FFBA989E2C22D32000F1A761 /* Frameworks */,
+				FFBA989F2C22D32000F1A761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwifUI-Spotify-Clone";
+			packageProductDependencies = (
+				FFBA98B32C22D3FF00F1A761 /* SDWebImageSwiftUI */,
+				FF3E3AA52C22E19C009FC87A /* SwiftfulUI */,
+			);
+			productName = "SwifUI-Spotify-Clone";
+			productReference = FFBA98A12C22D32000F1A761 /* SwifUI-Spotify-Clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFBA98992C22D32000F1A761 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FFBA98A02C22D32000F1A761 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = FFBA989C2C22D32000F1A761 /* Build configuration list for PBXProject "SwifUI-Spotify-Clone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFBA98982C22D32000F1A761;
+			packageReferences = (
+				FFBA98B22C22D3FF00F1A761 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				FF3E3AA42C22E19C009FC87A /* XCRemoteSwiftPackageReference "SwiftfulUI" */,
+			);
+			productRefGroup = FFBA98A22C22D32000F1A761 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFBA98A02C22D32000F1A761 /* SwifUI-Spotify-Clone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFBA989F2C22D32000F1A761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBA98AC2C22D32200F1A761 /* Preview Assets.xcassets in Resources */,
+				FFBA98A92C22D32200F1A761 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFBA989D2C22D32000F1A761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBA98A72C22D32000F1A761 /* ContentView.swift in Sources */,
+				FF85A86F2C25710C00D33D22 /* ImageTitleRowCell.swift in Sources */,
+				FF7B42F82C23E33F00252C5C /* Category.swift in Sources */,
+				FF3E3A9F2C22DBA2009FC87A /* ProductList.swift in Sources */,
+				FF7B42F42C23DBA500252C5C /* HomeView.swift in Sources */,
+				FF3E3A9C2C22D736009FC87A /* ImageLoaderView.swift in Sources */,
+				FF7B42FE2C2430FB00252C5C /* NewReleaseCell.swift in Sources */,
+				FFBA98A52C22D32000F1A761 /* SwifUI_Spotify_CloneApp.swift in Sources */,
+				FF7B42F62C23DFF800252C5C /* CategoryCell.swift in Sources */,
+				FF7B42FC2C2409F500252C5C /* Extensions.swift in Sources */,
+				FFF1AECB2C29735000D13308 /* PlaylistDescriptionCell.swift in Sources */,
+				FFF1AEC72C29557E00D13308 /* PlaylistView.swift in Sources */,
+				FFB4A2272C2C069B00BD7BDE /* Router.swift in Sources */,
+				FF3E3AA12C22DBC4009FC87A /* DatabaseHelper.swift in Sources */,
+				FFF1AECD2C2A936B00D13308 /* PlaylistRowCell.swift in Sources */,
+				FF7B42FA2C2407C400252C5C /* RecentCell.swift in Sources */,
+				FF3E3AA32C22DD9E009FC87A /* UserList.swift in Sources */,
+				FF85A8712C257AAD00D33D22 /* ProductRow.swift in Sources */,
+				FFF1AEC92C2955C000D13308 /* PlaylistHeaderCell.swift in Sources */,
+				FF3E3A9A2C22D6E0009FC87A /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FFBA98AD2C22D32200F1A761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFBA98AE2C22D32200F1A761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFBA98B02C22D32200F1A761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwifUI-Spotify-Clone/Preview Content\"";
+				DEVELOPMENT_TEAM = FMMGHKGHHC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shagaranasution.SwifUI-Spotify-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFBA98B12C22D32200F1A761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwifUI-Spotify-Clone/Preview Content\"";
+				DEVELOPMENT_TEAM = FMMGHKGHHC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shagaranasution.SwifUI-Spotify-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFBA989C2C22D32000F1A761 /* Build configuration list for PBXProject "SwifUI-Spotify-Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBA98AD2C22D32200F1A761 /* Debug */,
+				FFBA98AE2C22D32200F1A761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFBA98AF2C22D32200F1A761 /* Build configuration list for PBXNativeTarget "SwifUI-Spotify-Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBA98B02C22D32200F1A761 /* Debug */,
+				FFBA98B12C22D32200F1A761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FF3E3AA42C22E19C009FC87A /* XCRemoteSwiftPackageReference "SwiftfulUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftfulThinking/SwiftfulUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+		FFBA98B22C22D3FF00F1A761 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FF3E3AA52C22E19C009FC87A /* SwiftfulUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF3E3AA42C22E19C009FC87A /* XCRemoteSwiftPackageReference "SwiftfulUI" */;
+			productName = SwiftfulUI;
+		};
+		FFBA98B32C22D3FF00F1A761 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FFBA98B22C22D3FF00F1A761 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FFBA98992C22D32000F1A761 /* Project object */;
+}
